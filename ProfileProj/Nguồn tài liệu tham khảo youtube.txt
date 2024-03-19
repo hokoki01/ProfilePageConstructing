@@ -1,8 +1,8 @@
 playlist của project t tham khảo
 https://www.youtube.com/playlist?list=PLVfq1luIZbSmAWiXmsjUsvdYRu7RdxzaM
 
-add Angular matierial ở phút 11:00
-https://www.youtube.com/watch?v=YKPegsIAWhY&list=PLVfq1luIZbSmAWiXmsjUsvdYRu7RdxzaM&index=1
+add và sử dụng Angular matierial
+https://www.youtube.com/watch?app=desktop&v=RJY5rnxXmMY
 
 tạo front cho profile page và logic đẩy data của user hiện lên page
 https://www.youtube.com/watch?v=ESOwacc-hJg&list=PLVfq1luIZbSmAWiXmsjUsvdYRu7RdxzaM&index=6
