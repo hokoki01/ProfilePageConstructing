@@ -1,0 +1,38 @@
+{
+  "student_information": {
+    "name": "Students Name",
+    "age": 20,
+    "gender": "unknow",
+    "email": "name@example.com",
+    "phone_number": "123-456-7890",
+    "major": "Student_Major",
+    "year_of_study": 3
+  },
+  "profile_functionality": {
+    "edit_profile_button": {
+      "label": "Edit Profile",
+      "url": "/edit_profile"
+    },
+    "settings": {
+      "sections": [
+        {
+          "title": "Profile Settings",
+          "options": [
+            {
+              "label": "Change Password",
+              "url": "/change_password"
+            },
+            {
+              "label": "Update Email",
+              "url": "/update_email"
+            },
+            {
+              "label": "Update Phone Number",
+              "url": "/update_phone_number"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

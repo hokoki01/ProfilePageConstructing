@@ -1,0 +1,33 @@
+<!-- profile-page.component.html -->
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <label>Name: </label>
+  <input type="text" formControlName="name"><br>
+
+  <label>Age: </label>
+  <input type="number" formControlName="age"><br>
+
+  <label>Gender: </label>
+  <input type="text" formControlName="gender"><br>
+
+  <label>Email: </label>
+  <input type="email" formControlName="email"><br>
+
+  <label>Phone Number: </label>
+  <input type="tel" formControlName="phone_number"><br>
+
+  <label>Major: </label>
+  <input type="text" formControlName="major"><br>
+
+  <label>Year of Study: </label>
+  <input type="number" formControlName="year_of_study"><br>
+
+  <button type="submit">{{ profileData.profile_functionality.edit_profile_button.label }}</button>
+</form>
+
+<!-- Settings Section -->
+<h2>{{ profileData.profile_functionality.settings.sections[0].title }}</h2>
+<ul>
+  <li *ngFor="let option of profileData.profile_functionality.settings.sections[0].options">
+    <a [href]="option.url">{{ option.label }}</a>
+  </li>
+</ul>
